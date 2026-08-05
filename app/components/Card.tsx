@@ -39,7 +39,7 @@ export default function Card({ section, index = 0 }: DefaultSectionProps) {
       className={`bg-gray-100 w-full max-w-lg rounded-2xl p-6 m-6 shadow-2xl transition-shadow duration-300 hover:shadow-md mx-auto
         ${isEven ? "md:-translate-x-8" : "md:translate-x-8"}`}
     >
-      <span className="text-xs font-semibold uppercase tracking-wider text-blue-500 markdown">
+      <span className="text-xs font-semibold tracking-wider text-blue-500 markdown">
         <Markdown>{section.header?.raw}</Markdown>
       </span>
       <div className="mt-3 text-sm leading-relaxed text-gray-800 markdown">

@@ -23,7 +23,9 @@ export default function ProfessionalTimeline({ section }: DefaultSectionProps) {
   return (
     <Center>
       <Stack gap="xl">
-        <Title order={2}>Professional Experience</Title>
+        <Title order={2} className="[font-family:var(--app-font-family)]">
+          Professional Experience
+        </Title>
 
         <MotionSettings variants={containerVariants}>
           <Timeline bulletSize={24} lineWidth={2}>
