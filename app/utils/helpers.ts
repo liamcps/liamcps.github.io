@@ -172,3 +172,16 @@ function pushCurrentEvent(events: WorkEvent[], currentEvent: WorkEvent | null) {
 export const normalizeAndCreateKey = (text: string) => {
   return text.slice(0, 12).trim().replace(/\s+/g, "-");
 };
+
+export const getGithubPagesUrl = (url: string) => {
+  if (!url) {
+    return undefined;
+  }
+
+  const username = url.replaceAll(/\/$/, "").split("/").pop();
+  if (!username) {
+    return undefined;
+  }
+
+  return `https://${username.toLowerCase()}.github.io/`;
+};
