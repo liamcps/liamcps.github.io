@@ -19,8 +19,7 @@ import {
 import { getGithubPagesUrl } from "./utils/helpers";
 
 const headerTitle = import.meta.env.VITE_DEVELOPER_NAME;
-const githubUrl = import.meta.env.VITE_GITHUB_URL;
-const siteUrl = getGithubPagesUrl(githubUrl);
+const siteUrl = getGithubPagesUrl(import.meta.env.VITE_GITHUB_URL);
 
 const theme = createTheme({
   headings: { fontFamily: "var(--app-font-family)" },
