@@ -13,8 +13,15 @@ import "./app.css";
 import {
   ColorSchemeScript,
   MantineProvider,
+  createTheme,
   mantineHtmlProps,
 } from "@mantine/core";
+
+const headerTitle = import.meta.env.VITE_DEVELOPER_NAME;
+
+const theme = createTheme({
+  headings: { fontFamily: "var(--app-font-family)" },
+});
 
 export const links: Route.LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -22,10 +29,6 @@ export const links: Route.LinksFunction = () => [
     rel: "preconnect",
     href: "https://fonts.gstatic.com",
     crossOrigin: "anonymous",
-  },
-  {
-    rel: "stylesheet",
-    href: "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
   },
 ];
 
@@ -35,26 +38,24 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:title" content={headerTitle} />
+        <meta property="og:description" content="My profile website." />
+        <meta property="og:image" content="favicon.svg" />
+        <meta property="og:type" content="website" />
         <link rel="icon" type="image/svg+xml" href="favicon.svg" />
         <ColorSchemeScript defaultColorScheme="auto" />
         <Meta />
         <Links />
       </head>
       <body>
-        <MantineProvider defaultColorScheme="auto">{children}</MantineProvider>
+        <MantineProvider theme={theme} defaultColorScheme="auto">
+          {children}
+        </MantineProvider>
         <ScrollRestoration />
         <Scripts />
       </body>
     </html>
   );
-}
-
-export function meta() {
-  const headerTitle = import.meta.env.VITE_DEVELOPER_NAME;
-  return [
-    { title: `${headerTitle}'s Portfolio` },
-    { name: "description", content: "Welcome to my Github page portfolio" },
-  ];
 }
 
 export default function App() {
