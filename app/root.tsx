@@ -42,7 +42,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:title" content={headerTitle} />
         <meta property="og:description" content="My profile website." />
-        <meta property="og:image" content={siteUrl + "/favicon.svg"} />
+        <meta property="og:image" content={siteUrl + "favicon.svg"} />
         <meta property="og:type" content="website" />
         <link rel="icon" type="image/svg+xml" href="favicon.svg" />
         <ColorSchemeScript defaultColorScheme="auto" />
