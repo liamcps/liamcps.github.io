@@ -19,6 +19,8 @@ import {
 
 const headerTitle = import.meta.env.VITE_DEVELOPER_NAME;
 const siteUrl = import.meta.env.VITE_SITE_URL;
+console.log(import.meta.env);
+console.log(siteUrl, headerTitle);
 
 const theme = createTheme({
   headings: { fontFamily: "var(--app-font-family)" },
