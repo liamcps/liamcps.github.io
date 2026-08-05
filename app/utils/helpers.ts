@@ -178,7 +178,7 @@ export const getGithubPagesUrl = (url: string) => {
     return undefined;
   }
 
-  const username = url.replaceAll(/\/$/, "").split("/").pop();
+  const username = url.replace(/\/$/, "").split("/").pop();
   if (!username) {
     return undefined;
   }
