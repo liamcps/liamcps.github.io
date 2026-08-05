@@ -22,28 +22,23 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Single deploy job since we're just deploying
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # --- Added Node.js Setup and Build Steps ---
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20 # You can adjust this to your project's Node version
-          cache: "npm" # Caches dependencies for faster subsequent runs
+          node-version: 20
+          cache: "npm"
 
       - name: Install dependencies
-        run: npm ci # 'npm ci' is preferred for automated environments
+        run: npm ci
 
       - name: Build application
-        run: npm run build # Assumes this script creates the 'build/client' directory
+        run: npm run build
         env:
           VITE_DEVELOPER_NAME: ${{ secrets.VITE_DEVELOPER_NAME }}
           VITE_PHONE_NUMBER: ${{ secrets.VITE_PHONE_NUMBER }}
@@ -51,7 +46,25 @@ jobs:
           VITE_EMAIL_ADDRESS: ${{ secrets.VITE_EMAIL_ADDRESS }}
           VITE_LINKEDIN_URL: ${{ secrets.VITE_LINKEDIN_URL }}
           VITE_GITHUB_URL: ${{ secrets.VITE_GITHUB_URL }}
-      # -------------------------------------------
+
+      - name: Upload intermediate build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: pages-build
+          path: build/client
+
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download build artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: pages-build
+          path: build
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -59,8 +72,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Updated from '.' to point directly to your client build folder
-          path: "build/client"
+          path: build/client
 
       - name: Deploy to GitHub Pages
         id: deployment
