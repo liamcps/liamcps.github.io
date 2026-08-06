@@ -14,8 +14,8 @@ export default function Settings({
   opened,
   closeDialog,
 }: {
-  opened: boolean;
-  closeDialog: () => void;
+  readonly opened: boolean;
+  readonly closeDialog: () => void;
 }) {
   const { t } = useTranslation();
   const toggleLanguage = (lng: string) => {
