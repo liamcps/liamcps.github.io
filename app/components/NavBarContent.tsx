@@ -5,21 +5,25 @@ import {
   HouseIcon,
   LinkedinLogoIcon,
   WhatsappLogoIcon,
+  GearIcon,
 } from "@phosphor-icons/react";
 import NavIconButton from "./NavIconButton";
 import { useNavigate } from "react-router";
 import type { UseClipboardReturnValue } from "@mantine/hooks";
+import { useTranslation } from "react-i18next";
 
 export default function NavBarContent({
   toggle,
   clipboard,
+  toggleDialog,
 }: {
   readonly toggle: () => void;
   readonly clipboard: UseClipboardReturnValue;
+  readonly toggleDialog: () => void;
 }) {
-  const emailButtonText = clipboard.copied
-    ? "Email copied!"
-    : "Send me an email";
+  const { t } = useTranslation();
+
+  const emailButtonText = clipboard.copied ? t("emailCopied") : t("sendEmail");
 
   const navigate = useNavigate();
 
@@ -58,15 +62,19 @@ export default function NavBarContent({
     window.open(whatsappUrl, "_blank");
   };
 
+  const handleSettingsClick = () => {
+    toggleDialog();
+  };
+
   return (
     <>
       <NavIconButton
-        alt="Go to home page"
+        alt={t("goToHomePage")}
         icon={HouseIcon}
         onClick={handleHomeClick}
       />
       <NavIconButton
-        alt="Check out my curriculum"
+        alt={t("checkOutMyCurriculum")}
         icon={FileTextIcon}
         onClick={handleCurriculumClick}
       />
@@ -76,19 +84,24 @@ export default function NavBarContent({
         onClick={handleEmailClick}
       />
       <NavIconButton
-        alt="Go to my LinkedIn profile page"
+        alt={t("goToMyLinkedInProfile")}
         icon={LinkedinLogoIcon}
         onClick={handleLinkedInClick}
       />
       <NavIconButton
-        alt="Open WhatsApp Chat"
+        alt={t("openWhatsAppChat")}
         icon={WhatsappLogoIcon}
         onClick={handleWhatsAppClick}
       />
       <NavIconButton
-        alt="Open GitHub Profile"
+        alt={t("openGitHubProfile")}
         icon={GithubLogoIcon}
         onClick={handleGithubClick}
+      />
+      <NavIconButton
+        alt={t("settings")}
+        icon={GearIcon}
+        onClick={handleSettingsClick}
       />
     </>
   );

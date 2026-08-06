@@ -26,14 +26,7 @@ export default function Home() {
 
   return (
     <DefaultPageAnimation>
-      <div className="flex flex-col">
-        {renderSection}
-        <div className="w-full h-[35vh] flex flex-col justify-end">
-          <p className="text-gray-600 text-center text-sm">
-            made by @michelbaratella
-          </p>
-        </div>
-      </div>
+      <div className="flex flex-col">{renderSection}</div>
     </DefaultPageAnimation>
   );
 }

@@ -4,9 +4,12 @@ import ReactLenis from "lenis/react";
 import { Outlet } from "react-router";
 import AnimatedAlert from "./AnimatedAlert";
 import NavBarContent from "./NavBarContent";
+import SettingsDialog from "./SettingsDialog";
 
 export default function AppShellContent() {
   const [opened, { toggle }] = useDisclosure();
+  const [dialogOpened, { toggle: toggleDialog, close: closeDialog }] =
+    useDisclosure(false);
   const clipboard = useClipboard({ timeout: 1000 });
   const headerTitle = import.meta.env.VITE_DEVELOPER_NAME;
 
@@ -29,14 +32,20 @@ export default function AppShellContent() {
       </AppShell.Header>
 
       <AppShell.Navbar>
-        <NavBarContent toggle={toggle} clipboard={clipboard} />
+        <NavBarContent
+          toggle={toggle}
+          clipboard={clipboard}
+          toggleDialog={toggleDialog}
+        />
       </AppShell.Navbar>
 
       <AppShell.Main>
         <AnimatedAlert isOn={clipboard.copied} />
-        <ReactLenis root /* options={{ infinite: true }} */>
+        <ReactLenis root>
           <Outlet />
         </ReactLenis>
+
+        <SettingsDialog opened={dialogOpened} closeDialog={closeDialog} />
       </AppShell.Main>
     </AppShell>
   );

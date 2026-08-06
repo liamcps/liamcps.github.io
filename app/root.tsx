@@ -10,6 +10,7 @@ import {
 import type { Route } from "./+types/root";
 import "@mantine/core/styles.css";
 import "./app.css";
+import "../i18n";
 import {
   ColorSchemeScript,
   MantineProvider,
@@ -55,6 +56,11 @@ export function Layout({ children }: { children: React.ReactNode }) {
         </MantineProvider>
         <ScrollRestoration />
         <Scripts />
+        <div className="w-full h-[35vh] flex flex-col justify-end">
+          <p className="text-gray-600 text-center text-sm">
+            made by @michelbaratella
+          </p>
+        </div>
       </body>
     </html>
   );
