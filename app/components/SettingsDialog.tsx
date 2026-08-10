@@ -7,7 +7,6 @@ import {
   Text,
 } from "@mantine/core";
 import { SunIcon, MoonStarsIcon } from "@phosphor-icons/react";
-import i18n from "../../i18n";
 import { useTranslation } from "react-i18next";
 
 export default function Settings({
@@ -17,10 +16,9 @@ export default function Settings({
   readonly opened: boolean;
   readonly closeDialog: () => void;
 }) {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const toggleLanguage = (lng: string) => {
-    console.log(`Changing language to: ${lng}`);
-    i18n.changeLanguage(lng); // Updates language instantly
+    i18n.changeLanguage(lng);
   };
 
   return (
@@ -54,7 +52,7 @@ export default function Settings({
             { value: "en", label: t("english") },
             { value: "pt-BR", label: t("portugueseBr") },
           ]}
-
+          value={i18n.language}
           onChange={(e) => toggleLanguage(e.target.value)}
         />
       </Group>
