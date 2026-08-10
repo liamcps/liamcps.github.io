@@ -11,7 +11,7 @@ export default function AppShellContent() {
   const [dialogOpened, { toggle: toggleDialog, close: closeDialog }] =
     useDisclosure(false);
   const clipboard = useClipboard({ timeout: 1000 });
-  const headerTitle = import.meta.env.VITE_DEVELOPER_NAME;
+  const headerTitle = import.meta.env.VITE_NAME;
 
   return (
     <AppShell

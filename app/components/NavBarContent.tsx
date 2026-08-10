@@ -29,17 +29,17 @@ export default function NavBarContent({
 
   const handleEmailClick = () => {
     toggle();
-    clipboard.copy(import.meta.env.VITE_EMAIL_ADDRESS as string);
+    clipboard.copy(import.meta.env.VITE_EMAIL as string);
   };
 
   const handleLinkedInClick = () => {
-    const linkedInUrl = import.meta.env.VITE_LINKEDIN_URL;
+    const linkedInUrl = import.meta.env.VITE_LINKEDIN;
     window.open(linkedInUrl, "_blank");
     toggle();
   };
 
   const handleGithubClick = () => {
-    const githubUrl = import.meta.env.VITE_GITHUB_URL;
+    const githubUrl = import.meta.env.VITE_GITHUB;
     window.open(githubUrl, "_blank");
     toggle();
   };
@@ -55,8 +55,8 @@ export default function NavBarContent({
   };
 
   const handleWhatsAppClick = () => {
-    const phoneNumber = import.meta.env.VITE_PHONE_NUMBER;
-    const message = import.meta.env.VITE_WHATSAPP_MESSAGE;
+    const phoneNumber = import.meta.env.VITE_PHONE;
+    const message = import.meta.env.VITE_WHATSAPP;
     const encodedMessage = encodeURIComponent(message as string);
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
     window.open(whatsappUrl, "_blank");
