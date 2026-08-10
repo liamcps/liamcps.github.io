@@ -1,12 +1,4 @@
-import {
-  Timeline,
-  Text,
-  Stack,
-  Title,
-  List,
-  Center,
-  useMantineColorScheme,
-} from "@mantine/core";
+import { Timeline, Text, Stack, Title, List, Center } from "@mantine/core";
 import { CheckIcon } from "@phosphor-icons/react";
 import {
   formatProfessionalTimeline,
@@ -23,8 +15,12 @@ import { useTranslation } from "react-i18next";
 export default function ProfessionalTimeline({ section }: DefaultSectionProps) {
   const flatEvents = formatProfessionalTimeline(section);
 
-  const { colorScheme } = useMantineColorScheme();
-  const textColor = colorScheme === "dark" ? "text-gray-200" : "text-gray-800";
+  // Use a stable class that supports both light and dark styles so the HTML
+  // emitted on the server matches the client during hydration. Tailwind's
+  // `dark:` variant will apply when the page switches to dark mode on the
+  // client without changing the element's class attribute, preventing
+  // hydration mismatches.
+  const textColor = "text-gray-800 dark:text-gray-200";
 
   const { t } = useTranslation();
 

@@ -29,12 +29,12 @@ jobs:
       - name: Build application
         run: npm run build
         env:
-          VITE_DEVELOPER_NAME: ${{ secrets.VITE_DEVELOPER_NAME }}
-          VITE_PHONE_NUMBER: ${{ secrets.VITE_PHONE_NUMBER }}
-          VITE_WHATSAPP_MESSAGE: ${{ secrets.VITE_WHATSAPP_MESSAGE }}
-          VITE_EMAIL_ADDRESS: ${{ secrets.VITE_EMAIL_ADDRESS }}
-          VITE_LINKEDIN_URL: ${{ secrets.VITE_LINKEDIN_URL }}
-          VITE_GITHUB_URL: ${{ secrets.VITE_GITHUB_URL }}
+          VITE_NAME: ${{ secrets.VITE_NAME }}
+          VITE_PHONE: ${{ secrets.VITE_PHONE }}
+          VITE_WHATSAPP: ${{ secrets.VITE_WHATSAPP }}
+          VITE_EMAIL: ${{ secrets.VITE_EMAIL }}
+          VITE_LINKEDIN: ${{ secrets.VITE_LINKEDIN }}
+          VITE_GITHUB: ${{ secrets.VITE_GITHUB }}
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
