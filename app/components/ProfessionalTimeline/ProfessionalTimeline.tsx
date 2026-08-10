@@ -18,6 +18,7 @@ import {
   MotionSettings,
 } from "./MotionSettings";
 import type { DefaultSectionProps } from "~/types/DefaultSectionProps";
+import { useTranslation } from "react-i18next";
 
 export default function ProfessionalTimeline({ section }: DefaultSectionProps) {
   const flatEvents = formatProfessionalTimeline(section);
@@ -25,11 +26,13 @@ export default function ProfessionalTimeline({ section }: DefaultSectionProps) {
   const { colorScheme } = useMantineColorScheme();
   const textColor = colorScheme === "dark" ? "text-gray-200" : "text-gray-800";
 
+  const { t } = useTranslation();
+
   return (
     <Center>
       <Stack gap="xl">
         <Title order={2} className="[font-family:var(--app-font-family)]">
-          Professional Experience
+          {t("professionalExperience")}
         </Title>
 
         <MotionSettings variants={containerVariants}>

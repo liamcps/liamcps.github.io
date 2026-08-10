@@ -1,13 +1,20 @@
 import myMarkdownFile from "../assets/curriculum.md?raw";
+import myMarkdownFilePtbr from "../assets/curriculum-br.md?raw";
 import Card from "~/components/Card";
 import DefaultPageAnimation from "~/components/DefaultPageAnimation";
 import GreetingSection from "~/components/GreetingSection/GreetingSection";
 import ProfessionalTimeline from "~/components/ProfessionalTimeline/ProfessionalTimeline";
 
 import { formatFileForRendering, getSectionKey } from "~/utils/helpers";
+import { useFormattedMarkdown } from "~/hooks/useFormattedMarkdown";
 
 export default function Home() {
-  const formattedFile = formatFileForRendering(myMarkdownFile);
+  const formattedFileToUse = useFormattedMarkdown(
+    myMarkdownFile,
+    myMarkdownFilePtbr,
+  );
+
+  const formattedFile = formatFileForRendering(formattedFileToUse);
 
   const renderSection = formattedFile.map((section, index) => {
     const sectionKey = getSectionKey(section.body, index);

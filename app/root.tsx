@@ -18,6 +18,7 @@ import {
   mantineHtmlProps,
 } from "@mantine/core";
 import { getGithubPagesUrl } from "./utils/helpers";
+import { useTranslation } from "react-i18next";
 
 const headerTitle = import.meta.env.VITE_DEVELOPER_NAME;
 const siteUrl = getGithubPagesUrl(import.meta.env.VITE_GITHUB_URL);
@@ -36,6 +37,7 @@ export const links: Route.LinksFunction = () => [
 ];
 
 export function Layout({ children }: { children: React.ReactNode }) {
+  const { t } = useTranslation();
   return (
     <html lang="en" {...mantineHtmlProps}>
       <head>
@@ -57,9 +59,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <ScrollRestoration />
         <Scripts />
         <div className="w-full h-[35vh] flex flex-col justify-end">
-          <p className="text-gray-600 text-center text-sm">
-            made by @michelbaratella
-          </p>
+          <p className="text-gray-600 text-center text-sm">{t("madeBy")}</p>
         </div>
       </body>
     </html>

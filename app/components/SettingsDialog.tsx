@@ -7,6 +7,7 @@ import {
   Text,
   useMantineColorScheme,
 } from "@mantine/core";
+import { useClickOutside } from "@mantine/hooks";
 import { SunIcon, MoonStarsIcon } from "@phosphor-icons/react";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
@@ -18,6 +19,7 @@ export default function Settings({
   readonly opened: boolean;
   readonly closeDialog: () => void;
 }) {
+  const ref = useClickOutside(() => closeDialog());
   const { t, i18n } = useTranslation();
   const [checked, setChecked] = useState(false);
   const { toggleColorScheme } = useMantineColorScheme();
@@ -32,6 +34,7 @@ export default function Settings({
 
   return (
     <Dialog
+      ref={ref}
       opened={opened}
       withCloseButton
       onClose={closeDialog}
