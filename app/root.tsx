@@ -11,7 +11,6 @@ import { useEffect } from "react";
 import type { Route } from "./+types/root";
 import "@mantine/core/styles.css";
 import "./app.css";
-import "../i18n";
 import { initClientLanguageDetection } from "../i18n";
 import {
   ColorSchemeScript,
