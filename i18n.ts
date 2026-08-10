@@ -19,6 +19,8 @@ const resources = {
       goToMyLinkedInProfile: "Go to my LinkedIn profile page",
       openWhatsAppChat: "Open WhatsApp Chat",
       openGitHubProfile: "Open GitHub Profile",
+      professionalExperience: "Professional Experience",
+      madeBy: "made by @michelbaratella",
     },
   },
   "pt-BR": {
@@ -36,6 +38,8 @@ const resources = {
       goToMyLinkedInProfile: "Ir para meu perfil do LinkedIn",
       openWhatsAppChat: "Abrir chat do WhatsApp",
       openGitHubProfile: "Abrir perfil do GitHub",
+      professionalExperience: "Experiência Profissional",
+      madeBy: "feito por @michelbaratella",
     },
   },
 };
