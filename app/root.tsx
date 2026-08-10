@@ -6,11 +6,12 @@ import {
   Scripts,
   ScrollRestoration,
 } from "react-router";
+import { useEffect } from "react";
 
 import type { Route } from "./+types/root";
 import "@mantine/core/styles.css";
 import "./app.css";
-import "../i18n";
+import { initClientLanguageDetection } from "../i18n";
 import {
   ColorSchemeScript,
   MantineProvider,
@@ -20,8 +21,8 @@ import {
 import { getGithubPagesUrl } from "./utils/helpers";
 import { useTranslation } from "react-i18next";
 
-const headerTitle = import.meta.env.VITE_DEVELOPER_NAME;
-const siteUrl = getGithubPagesUrl(import.meta.env.VITE_GITHUB_URL);
+const headerTitle = import.meta.env.VITE_NAME;
+const siteUrl = getGithubPagesUrl(import.meta.env.VITE_GITHUB);
 
 const theme = createTheme({
   headings: { fontFamily: "var(--app-font-family)" },
@@ -38,6 +39,12 @@ export const links: Route.LinksFunction = () => [
 
 export function Layout({ children }: { children: React.ReactNode }) {
   const { t } = useTranslation();
+
+  // Enable browser language detection only after hydration to avoid
+  // hydration mismatches between server-rendered and client-rendered text.
+  useEffect(() => {
+    initClientLanguageDetection();
+  }, []);
   return (
     <html lang="en" {...mantineHtmlProps}>
       <head>
