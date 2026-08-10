@@ -1,118 +1,175 @@
-# **Michel Henrique Baratella Silva**
+# Lívia Alves Munhoz
+**In-House Lawyer | Corporate & Commercial Contracts | Tech | LGPD | Risk Management**
 
-**Desenvolvedor Frontend Sênior | React | TypeScript | Otimização de UI/UX**
-
-📍 Valinhos, São Paulo, Brasil | 📱 +55 19 99120-7300 | ✉️ baratella2@gmail.com
-
-🔗 [linkedin.com/in/michelbaratella](https://www.linkedin.com/in/michelbaratella)
-
----
-
-## **Resumo Profissional**
-
-**Desenvolvedor Frontend Sênior** orientado a resultados, com ampla experiência em TI, em transição de uma sólida bagagem em Garantia de Qualidade de Software (QA) e Especialista no Assunto (SME) para o Desenvolvimento Web de alto impacto. Atualmente especializado em Engenharia de Software Frontend utilizando o ecossistema **React/TypeScript**. Histórico comprovado na entrega de aplicações complexas e altamente escaláveis, incluindo soluções inovadoras integradas a LLMs de IA. Profunda experiência em todo o ciclo de vida de desenvolvimento de software — abrangendo análise de requisitos, mitigação de riscos, gestão de pipelines modernos de CI/CD e metodologias Ágeis/Scrum/SAFe.
+**Location:** Valinhos, São Paulo, Brasil  
+**Phone:** 019-997470077  
+**Email:** lalvesmunhoz@gmail.com  
+**LinkedIn:** [linkedin.com/in/livia-am](https://www.linkedin.com/in/livia-am)  
 
 ---
 
-## **Principais Competências**
+## Resumo Profissional / Summary
 
-- **Desenvolvimento Frontend:** React, Angular 4, TypeScript, JavaScript (ES6+), HTML5, CSS3
-- **Gerenciamento de Estado e Dados:** TanStack, Zustand, React Context API, GraphQL, Axios, JSON
-- **Estilização e Animação:** Styled Components, Tailwind CSS, Framer Motion, Shadow DOM
-- **IA e Automação:** Integração com LLM (OpenAI Codex, Claude Cursor), MCP para gestão automatizada de tickets
-- **Frameworks de Testes:** Jest, React Testing Library (RTL), Playwright, Vitest, JSDOM, Parasoft SOAtest
-- **DevOps e Segurança:** GitHub Actions, Jenkins, SonarScan, Snyk, Autenticação Azure MSAL, Cloudflare
-- **Metodologias:** SAFe, Agile, Scrum, JIRA, Confluence, HP ALM
+Advogada empresarial com atuação em contratos estratégicos, negociação e gestão de riscos em ambientes corporativos e de tecnologia. Experiência na elaboração, revisão e negociação de contratos empresariais nacionais e internacionais, incluindo SaaS, prestação de serviços e parcerias comerciais, com foco em mitigação de riscos e conformidade regulatória (LGPD, compliance, confidencialidade e propriedade intelectual). Atuação consultiva próxima às áreas de negócio, apoiando decisões estratégicas e contribuindo para soluções jurídicas alinhadas aos objetivos corporativos. 
+
+*Experienced In-House Lawyer with solid experience in corporate and commercial contracts within technology-driven environments. Skilled in contract negotiation, risk assessment and regulatory compliance, providing strategic legal support to business teams and contributing to secure and sustainable decision-making.*
 
 ---
 
-## **Experiência Profissional**
+## Principais Competências
 
-### **ACT Digital**
-
-**Desenvolvedor Frontend Sênior (Alocado na AB-InBev)** | _Abril de 2025 – Presente_
-
-- Projetei soluções frontend de alta complexidade e arquiteturas de aplicações centrais.
-- Utilizei ferramentas avançadas de IA (OpenAI Codex, Claude Cursor) com regras customizadas, skills e agentes do Model Context Protocol (MCP) para automatizar o gerenciamento de tickets, detalhamento de epics/stories e documentação no Atlassian.
-- Implementei arquiteturas de autenticação seguras utilizando Azure MSAL.
-- Otimizei a performance de aplicações e o gerenciamento de estado usando Zustand, TanStack e React Context; integrei busca de dados fluida via GraphQL e Axios.
-- Construí interfaces de usuário ricas e fluidas com Tailwind CSS, Styled Components e Framer Motion.
-- Desenvolvi Progressive Web Applications (PWAs) com foco rigoroso em performance de SEO, web vitals e acessibilidade.
-- Arquitetei pipelines robustos de CI/CD via GitHub Actions, aplicando padrões de qualidade de código e segurança via ESLint, compilação TypeScript, SonarScan e rastreamento de vulnerabilidades Snyk.
-- Escrevi suítes de testes abrangentes, variando de testes estáticos, unitários e de integração até cobertura end-to-end (E2E) usando Jest, RTL, Playwright e Vitest.
-- Utilizei Shadow DOM e Design Systems customizados para alcançar encapsulamento de estilo para injeções de scripts externos e seguros.
-- Implementei fluxos de trabalho de internacionalização (i18n) para tradução dinâmica multilinguagem e renderização de Markdown.
-
-### **IBM**
-
-**Desenvolvedor Frontend** | _Agosto de 2024 – Abril de 2025_
-
-- Entreguei recursos web modernos utilizando React e integrei testes unitários com Jest.
-- Colaborei em equipes de alta performance sob o framework Agile SAFe e automatizei fluxos de implantação via Jenkins.
-
-**Engenheiro de Software** | _Dezembro de 2020 – Agosto de 2024_
-
-- Desenvolvi recursos full-stack utilizando React, Python, Java e scripts em Bash Shell.
-- Gerenciei o design de banco de dados, consultas e manipulação de dados utilizando PostgreSQL.
-- Automatizei a implantação de infraestrutura e testes de integração utilizando pipelines de CI/CD no Jenkins configurados com Groovy.
-- Gerenciei aplicação de patches de software, remediação de vulnerabilidades de segurança e atualizações de sistema em servidores UNIX RHEL.
-- Contribuidor ativo em iterações centrais de Agile Scrum, promovendo a colaboração multifuncional entre as frentes de desenvolvimento.
-
-**Desenvolvedor Frontend** | _Dezembro de 2017 – Dezembro de 2020_
-
-- Programei aplicações frontend dinâmicas utilizando Angular 4.
-- Gerenciei controle de versão e implantações de ambientes utilizando Git, ClearCase e fluxos automatizados no Jenkins.
-- Realizei o gerenciamento e configuração de arquivos entre servidores utilizando WinSCP e PuTTY.
-
-**Especialista no Assunto (SME)** | _Setembro de 2015 – Dezembro de 2017_
-
-- Lideres a definição de escopo, análise de demanda, estimativa de Nível de Esforço (LOE) e relatórios de risco de projetos.
-- Mapeei requisitos de negócios complexos para casos de testes funcionais, conduzindo testes de regressão e documentação de Revisão de Prontidão Técnica (TRR).
-- Supervisionei o planejamento de Testes de Aceitação do Usuário (UAT), priorização de defeitos e análise de escape em produção.
-
-### **Stefanini Group**
-
-**Analista de Testes de Aplicação (Alocado na IBM)** | _Abril de 2013 – Setembro de 2015_
-
-- Realizei análises de ponta a ponta em frontend e backend, validações e manipulação de dados XML.
-- Desenvolvi scripts de teste de API backend e validações usando Parasoft SOAtest.
-- Atuei como principal ponto de contato para clientes e proprietários de projetos, gerenciando a atribuição de tarefas da equipe e orientando novos recursos técnicos.
-
-### **Instituto de Pesquisas Eldorado**
-
-**Assistente Técnico Júnior / Técnico Auxiliar / Estagiário** | _Setembro de 2009 – Outubro de 2012_
-
-- Executei processos automatizados e elaborei documentações abrangentes de projetos.
-- Participei da equipe de execução de testes do core do sistema operacional Android para plataformas de telefonia móvel.
+- Gestão de riscos
+- Contratos empresariais
+- Negociação contratual
 
 ---
 
-## **Educação**
+## Experiência Profissional
 
-- **Bacharelado em Sistemas de Informação** | Metrocamp Veris IBTA (2012 - 2015)
-- **Bacharelado em Ciência da Computação** | Instituição Paulista de Ensino e Pesquisa - IPEP (2010 - 2012)
-
----
-
-## **Certificações**
-
-- Cognitive Practitioner
-- Getting started with Microservices with Istio and IBM Cloud Kubernetes Service
-- Hybrid Cloud Journey Essentials - Middleware
-- Telecommunications Industry Foundations
-- Big Data Foundations - Level 1
+### **Matera**
+**Analista jurídico**  
+*Abril de 2026 – Presente* | Campinas, SP 
 
 ---
 
-## **Prêmios e Reconhecimentos**
+### **Sensedia**
+**Advogado**  
+*Setembro de 2024 – Outubro de 2025 (1 ano 2 meses)* | Campinas, SP
 
-- **Award of Excellence** (2019)
-- **Quality Hero** | DirecTV Software Quality Assurance (2015)
-- **Quality Hero** | DirecTV Software Quality Assurance (2013)
+Atuação como advogada interna, responsável pela análise, revisão e negociação de contratos empresariais nacionais e internacionais, com foco em mitigação de riscos e alinhamento estratégico ao negócio.
+
+- Elaboração e negociação de contratos de prestação de serviços, SaaS e parcerias comerciais.
+- Estruturação e revisão de cláusulas relacionadas à LGPD, compliance, confidencialidade, propriedade intelectual e limitação de responsabilidade.
+- Atuação consultiva junto às áreas Comercial, Financeira, Marketing, Segurança da Informação e RH, apoiando decisões estratégicas.
+- Implementação de cláusulas-padrão da ANPD para transferência internacional de dados pessoais.
+- Emissão de pareceres jurídicos sobre riscos contratuais e regulatórios.
+- Gestão do ciclo de vida contratual por meio do HubSpot.
 
 ---
 
-## **Idiomas**
+### **Cogna Educação**
+**Analista jurídico**  
+*Março de 2024 – Julho de 2024 (5 meses)* | Valinhos, SP
 
-- **Inglês:** Proficiência Nativa ou Bilingue
-- **Português:** Proficiência Nativa ou Bilingue
+Atuação no contencioso cível estratégico, com gestão de demandas ativas e passivas nas áreas civil, educacional, societária e contratual.
+
+- Interface com escritórios externos e áreas internas para definição de estratégias processuais.
+- Análise preventiva de riscos jurídicos e provisionamento.
+- Elaboração de relatórios gerenciais e acompanhamento de indicadores.
+- Utilização do sistema Elaw para gestão de carteira processual.
+
+---
+
+### **Escolas Diversas**
+**Professora**  
+*2020 – 2023 (3 anos)* | Campinas e Região
+
+Experiência no desenvolvimento de habilidades de comunicação, didática e organização, competências aplicadas atualmente na atuação consultiva e na negociação contratual em ambiente corporativo.
+
+---
+
+### **Russo Maruyama e Okada**
+*(2 anos)*
+
+**Advogado júnior**  
+*2019 – 2020 (1 ano)* | Campinas, SP  
+Atuação em contencioso cível e consumerista, com gestão de carteira processual e condução de acordos estratégicos.
+- Elaboração de peças processuais e acompanhamento de demandas judiciais.
+- Negociação e formalização de acordos.
+- Análise de riscos e suporte aos clientes na definição de estratégias jurídicas.
+
+**Auxiliar jurídico**  
+*2018 – 2019 (1 ano)* | Campinas, SP  
+Atuação no suporte ao contencioso cível e consumerista, com participação ativa na gestão de carteira processual e acompanhamento de prazos.
+- Apoio na elaboração de peças processuais e organização de estratégias processuais.
+- Análise de documentos e preparação de subsídios para atuação dos advogados.
+- Controle de prazos e acompanhamento de andamentos processuais.
+- Interface com clientes para coleta de informações e suporte na condução das demandas.
+
+---
+
+### **Claro Brasil**
+**Auxiliar Administrativo**  
+*Março de 2017 – Dezembro de 2017 (10 meses)* | Campinas, SP
+
+Atuação na área de Engenharia de Implantação, com suporte na gestão de acessos de grande porte e interface com diferentes áreas internas.
+- Organização e controle de demandas administrativas.
+- Apoio na comunicação entre equipes técnicas e operacionais.
+- Suporte em atividades de controle documental e acompanhamento de processos internos.
+
+---
+
+### **Prefeitura Municipal de Campinas**
+**Estagiário de direito**  
+*2016 – 2017 (1 ano)* | Campinas, SP
+
+Atuação na área de Direito Público, com apoio em processos administrativos e demandas relacionadas a direito imobiliário, contratos e desapropriações.
+- Auxílio na elaboração de peças e manifestações jurídicas.
+- Análise de documentação e organização de processos administrativos.
+- Atendimento ao público e realização de diligências externas.
+
+---
+
+### **Tribunal de Justiça de São Paulo**
+**Estagiário de direito**  
+*2015 – 2016 (1 ano)* | Sertãozinho, SP
+
+Atuação no apoio às rotinas cartorárias, com acompanhamento de processos judiciais e organização de despachos.
+- Controle e movimentação processual.
+- Suporte na análise documental.
+- Organização e arquivamento de autos.
+
+---
+
+### **Centro Judiciário de Resolução de Conflitos**
+**Estagiário de direito**  
+*Janeiro de 2015 – Junho de 2015 (6 meses)* | Sertãozinho, SP
+
+Atuação no apoio a procedimentos de conciliação e mediação.
+- Atendimento ao público e organização de audiências.
+- Suporte na formalização de acordos.
+- Encaminhamento de processos ao Tribunal.
+
+---
+
+### **Delegacia Defesa da Mulher**
+**Estagiário de direito**  
+*Agosto de 2014 – Novembro de 2014 (4 meses)*
+
+Atuação no atendimento ao público e acompanhamento de procedimentos investigativos.
+- Suporte em oitivas e organização documental.
+- Atendimento a vítimas e apoio às rotinas administrativas da unidade.
+
+---
+
+## Formação Acadêmica
+
+- **Centro Universitário UniMetrocamp**  
+  Bacharelado em Direito (2012 – 2017)
+
+- **Legale Educacional**  
+  Pós-Graduação (*Postgraduate Degree*), Direito Civil e Processo Civil (Concluído em Abril de 2024)
+
+- **Centro Universitário Claretiano**  
+  Licenciatura em Letras (2021 – 2022)
+
+- **Claretiano - Rede de Educação**  
+  Licenciatura, Pedagogia - Níveis Diversos
+
+---
+
+## Idiomas
+
+- **Português:** Nativo / Bilingue
+- **Inglês:** Nativo / Bilingue
+- **Espanhol:** Elementar
+
+---
+
+## Certificações
+
+- Universo das cores
+- Curso Online Eu ProgrAmo | FE1 | Turma 32
+- Tipografia
+- Esqueleto de uma interface
+- Português: Novas Regras Ortográficas
