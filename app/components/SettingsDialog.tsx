@@ -5,8 +5,10 @@ import {
   NativeSelect,
   Switch,
   Text,
+  useMantineColorScheme,
 } from "@mantine/core";
 import { SunIcon, MoonStarsIcon } from "@phosphor-icons/react";
+import { useState } from "react";
 import { useTranslation } from "react-i18next";
 
 export default function Settings({
@@ -17,8 +19,15 @@ export default function Settings({
   readonly closeDialog: () => void;
 }) {
   const { t, i18n } = useTranslation();
+  const [checked, setChecked] = useState(false);
+  const { toggleColorScheme } = useMantineColorScheme();
   const toggleLanguage = (lng: string) => {
     i18n.changeLanguage(lng);
+  };
+
+  const handleThemeToggle = (isChecked: boolean) => {
+    setChecked(isChecked);
+    toggleColorScheme();
   };
 
   return (
@@ -35,6 +44,8 @@ export default function Settings({
 
       <Group align="flex-end" mb="sm">
         <Switch
+          checked={checked}
+          onChange={(e) => handleThemeToggle(e.currentTarget.checked)}
           size="md"
           color="dark.4"
           label={t("toggleTheme")}

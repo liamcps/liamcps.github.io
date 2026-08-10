@@ -1,4 +1,12 @@
-import { Timeline, Text, Stack, Title, List, Center } from "@mantine/core";
+import {
+  Timeline,
+  Text,
+  Stack,
+  Title,
+  List,
+  Center,
+  useMantineColorScheme,
+} from "@mantine/core";
 import { CheckIcon } from "@phosphor-icons/react";
 import {
   formatProfessionalTimeline,
@@ -10,15 +18,12 @@ import {
   MotionSettings,
 } from "./MotionSettings";
 import type { DefaultSectionProps } from "~/types/DefaultSectionProps";
-import { useColorScheme } from "@mantine/hooks";
 
 export default function ProfessionalTimeline({ section }: DefaultSectionProps) {
   const flatEvents = formatProfessionalTimeline(section);
 
-  const osScheme = useColorScheme();
-  const resolvedScheme = osScheme === "light" ? "light" : "dark";
-  const textColor =
-    resolvedScheme === "dark" ? "text-gray-200" : "text-gray-800";
+  const { colorScheme } = useMantineColorScheme();
+  const textColor = colorScheme === "dark" ? "text-gray-200" : "text-gray-800";
 
   return (
     <Center>
