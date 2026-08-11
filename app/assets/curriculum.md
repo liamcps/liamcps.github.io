@@ -1,173 +1,156 @@
-# Lívia Alves Munhoz
+# **Lívia Alves Munhoz**
+
 **In-House Lawyer | Corporate & Commercial Contracts | Tech | LGPD | Risk Management**
 
-**Location:** Valinhos, São Paulo, Brazil  
-**Phone:** +55 19 99747-0077  
-**Email:** lalvesmunhoz@gmail.com  
-**LinkedIn:** [linkedin.com/in/livia-am](https://www.linkedin.com/in/livia-am)  
+📍 Valinhos, São Paulo, Brazil | 📱 +55 19 99747-0077 | ✉️ lalvesmunhoz@gmail.com
+
+🔗 [linkedin.com/in/livia-am](https://www.linkedin.com/in/livia-am)
 
 ---
 
-## Professional Summary
+## **Professional Summary**
 
-Corporate attorney specializing in strategic contracts, negotiation, and risk management in corporate and technology environments. Experienced in drafting, reviewing, and negotiating national and international commercial contracts, including SaaS, service provision, and commercial partnerships, with a focus on risk mitigation and regulatory compliance (LGPD, compliance, confidentiality, and intellectual property). Strong consultative practice working closely with business units to support strategic decisions and contribute to legal solutions aligned with corporate goals.
-
----
-
-## Core Competencies
-
-- Risk Management
-- Corporate Contracts
-- Contract Negotiation
+Experienced **In-House Lawyer** specializing in strategic corporate and commercial contracts, contract negotiation, and risk management within technology-driven environments. Solid track record in drafting, reviewing, and negotiating complex national and international agreements, including SaaS, service provision, and commercial partnerships, with a strong focus on risk mitigation and regulatory compliance (LGPD, compliance, confidentiality, and intellectual property). Proven experience acting as a business partner, delivering agile legal advisory to business teams and driving secure, strategic decision-making.
 
 ---
 
-## Professional Experience
+## **Core Skills**
+
+- **Corporate Contracts & Negotiation:** International & National Contracts, SaaS Agreements, Service Provision, Commercial Partnerships, Lifecycle Management (HubSpot)
+- **Data Privacy & Compliance:** LGPD Compliance, ANPD Standard Contractual Clauses, Cross-Border Data Transfers, IP, Confidentiality, Limitation of Liability
+- **Litigation & Advisory:** Strategic Civil Litigation, Risk Analysis & Provisioning, Legal Opinions, Claims Management (Elaw), Mediation & Dispute Resolution
+- **Interfunctional Collaboration:** Business Partnering with Commercial, Finance, Marketing, InfoSec, and HR teams
+
+---
+
+## **Professional Experience**
 
 ### **Matera**
-**Legal Analyst**  
-*April 2026 – Present* | Campinas, SP, Brazil
+
+**Analista Jurídico** | _April 2026 – Present_  
+*Campinas, SP*
+
+- Provided strategic in-house legal counsel for corporate and financial technology solutions.
 
 ---
 
 ### **Sensedia**
-**Attorney / Legal Counsel**  
-*September 2024 – October 2025 (1 year 2 months)* | Campinas, SP, Brazil
 
-Served as in-house counsel responsible for analyzing, reviewing, and negotiating national and international corporate contracts, focusing on risk mitigation and strategic business alignment.
+**Advogado** | _September 2024 – October 2025_  
+*Campinas, SP*
 
-- Drafted and negotiated contracts for service provision, SaaS, and commercial partnerships.
-- Structured and reviewed clauses related to LGPD (Brazilian General Data Protection Law), compliance, confidentiality, intellectual property, and limitation of liability.
-- Provided legal counsel to Commercial, Finance, Marketing, Information Security, and HR departments to support strategic decision-making.
-- Implemented ANPD (National Data Protection Authority) standard contractual clauses for international data transfers.
+- Served as In-House Lawyer responsible for analyzing, reviewing, and negotiating national and international commercial contracts with a focus on risk mitigation and business alignment.
+- Drafted and negotiated service agreements, SaaS contracts, and strategic commercial partnerships.
+- Structured and revised clauses covering LGPD, compliance, confidentiality, intellectual property, and limitation of liability.
+- Partnered consultatively with Sales, Finance, Marketing, Information Security, and HR departments to support strategic decision-making.
+- Implemented ANPD standard clauses for international personal data transfers.
 - Issued legal opinions on contractual and regulatory risks.
-- Managed contract lifecycle management (CLM) through HubSpot.
+- Managed end-to-end contract lifecycle management (CLM) using HubSpot.
 
 ---
 
 ### **Cogna Educação**
-**Legal Analyst**  
-*March 2024 – July 2024 (5 months)* | Valinhos, SP, Brazil
 
-Worked in strategic civil litigation, managing active and passive claims across civil, educational, corporate, and contract law.
+**Analista Jurídico** | _March 2024 – July 2024_  
+*Valinhos, SP*
 
-- Served as interface with external law firms and internal departments to define litigation strategies.
-- Performed preventive analysis of legal risks and financial provisioning.
-- Prepared management reports and monitored key indicators/metrics.
-- Used the Elaw system for lawsuit portfolio management.
+- Managed strategic civil litigation, handling active and passive claims across civil, educational, corporate, and contractual matters.
+- Acted as the primary interface between external law firms and internal departments to align litigation strategies.
+- Conducted preventive legal risk analysis and financial provisioning.
+- Prepared executive reports and tracked legal KPIs.
+- Utilized the Elaw software system for comprehensive litigation portfolio management.
 
 ---
 
-### **Various Schools (Escolas Diversas)**
-**Teacher**  
-*2020 – 2023 (3 years)* | Campinas Region, SP, Brazil
+### **Escolas Diversas**
 
-Developed strong communication, teaching, and organizational skills, currently applied in consultative legal practice and corporate contract negotiation.
+**Professora** | _2020 – 2023_  
+*Campinas e Região*
+
+- Developed advanced skills in communication, pedagogy, and organization, directly applied to consultative legal practice and contract negotiation in corporate environments.
 
 ---
 
 ### **Russo Maruyama e Okada**
-*(2 years total)*
 
-**Junior Attorney**  
-*2019 – 2020 (1 year)* | Campinas, SP, Brazil  
-Practiced civil and consumer litigation, managing lawsuit portfolios and leading strategic settlement negotiations.
-- Drafted legal briefs and monitored judicial proceedings.
-- Negotiated and formalized settlement agreements.
-- Conducted risk analysis and provided client support on legal strategy.
+**Advogado Júnior** | _2019 – 2020_  
+*Campinas, SP*
 
-**Legal Assistant**  
-*2018 – 2019 (1 year)* | Campinas, SP, Brazil  
-Supported civil and consumer litigation, actively participating in portfolio management and deadline tracking.
-- Assisted in drafting legal pleadings and structuring procedural strategies.
-- Analyzed documents and prepared background materials for senior attorneys.
-- Managed procedural deadlines and tracked case developments.
-- Interfaced with clients to gather information and assist in handling legal demands.
+- Managed civil and consumer litigation portfolios and led strategic settlement negotiations.
+- Drafted procedural motions, monitored lawsuits, and advised clients on risk analysis and legal strategies.
+
+**Auxiliar Jurídico** | _2018 – 2019_  
+*Campinas, SP*
+
+- Supported civil and consumer litigation, assisting in portfolio management, procedural deadlines, document analysis, and client communications.
 
 ---
 
 ### **Claro Brasil**
-**Administrative Assistant**  
-*March 2017 – December 2017 (10 months)* | Campinas, SP, Brazil
 
-Worked in the Deployment Engineering department, supporting large-scale access management and interfacing across internal departments.
-- Organized and controlled administrative demands.
-- Supported communication between technical and operational teams.
-- Provided support in document control activities and monitoring internal processes.
+**Auxiliar Administrativo** | _March 2017 – December 2017_  
+*Campinas, SP*
+
+- Supported Implementation Engineering on large-scale access management and cross-departmental administrative operations.
 
 ---
 
-### **Prefeitura Municipal de Campinas (Municipality of Campinas)**
-**Legal Intern**  
-*2016 – 2017 (1 year)* | Campinas, SP, Brazil
+### **Prefeitura Municipal de Campinas**
 
-Worked in Public Law, supporting administrative proceedings and matters related to real estate law, contracts, and expropriations.
-- Assisted in drafting legal petitions and official responses.
-- Analyzed documentation and organized administrative proceedings.
-- Handled public inquiries and performed external court/administrative errands.
+**Estagiário de Direito** | _2016 – 2017_  
+*Campinas, SP*
+
+- Assisted in public law matters, administrative proceedings, real estate law, public contracts, and expropriations.
 
 ---
 
-### **Tribunal de Justiça de São Paulo (São Paulo State Court of Justice)**
-**Legal Intern**  
-*2015 – 2016 (1 year)* | Sertãozinho, SP, Brazil
+### **Tribunal de Justiça de São Paulo**
 
-Supported court clerk office routines, tracking judicial proceedings and organizing court orders.
-- Managed and updated procedural dockets.
-- Supported document review and analysis.
-- Organized and archived physical case files.
+**Estagiário de Direito** | _2015 – 2016_  
+*Sertãozinho, SP*
+
+- Managed registry routines, procedural tracking, document analysis, and judicial orders.
 
 ---
 
-### **Centro Judiciário de Resolução de Conflitos (Judicial Center for Conflict Resolution - CEJUSC)**
-**Legal Intern**  
-*January 2015 – June 2015 (6 months)* | Sertãozinho, SP, Brazil
+### **Centro Judiciário de Resolução de Conflitos (CEJUSC)**
 
-Supported conciliation and mediation procedures.
-- Handled public service and organized hearing schedules.
-- Assisted in formalizing settlement agreements.
-- Forwarded case files to the Court.
+**Estagiário de Direito** | _January 2015 – June 2015_  
+*Sertãozinho, SP*
+
+- Supported conciliation and mediation procedures, customer service, hearing organization, and agreement drafting.
 
 ---
 
-### **Delegacia Defesa da Mulher (Women's Defense Police Station)**
-**Legal Intern**  
-*August 2014 – November 2014 (4 months)*
+### **Delegacia de Defesa da Mulher**
 
-Assisted with public service and monitored investigative procedures.
-- Provided support in hearings/witness statements and document organization.
-- Handled victim intake and supported administrative routines of the unit.
+**Estagiário de Direito** | _August 2014 – November 2014_
+
+- Assisted in investigative procedures, witness statements, victim support, and administrative routines.
 
 ---
 
-## Education
+## **Education**
 
-- **Centro Universitário UniMetrocamp**  
-  Bachelor’s Degree in Law (LL.B. equivalent) (2012 – 2017)
-
-- **Legale Educacional**  
-  Postgraduate Degree in Civil Law and Civil Procedure (Completed April 2024)
-
-- **Centro Universitário Claretiano**  
-  Bachelor’s Degree in Literature / Portuguese (Licentiate) (2021 – 2022)
-
-- **Claretiano - Rede de Educação**  
-  Bachelor’s Degree in Pedagogy / Education (Licentiate)
+- **Postgraduate Degree in Civil Law and Civil Procedure** | Legale Educacional (2024)
+- **Bachelor of Laws (Juris Doctor equivalent)** | Centro Universitário UniMetrocamp (2012 – 2017)
+- **Bachelor's Degree in Literature / Languages (Licenciatura em Letras)** | Centro Universitário Claretiano (2021 – 2022)
+- **Bachelor's Degree in Pedagogy (Licenciatura em Pedagogia)** | Claretiano - Rede de Educação
 
 ---
 
-## Languages
+## **Certifications**
 
-- **Portuguese:** Native / Bilingual
-- **English:** Native / Bilingual
-- **Spanish:** Elementary
+- Universo das Cores
+- Curso Online Eu ProgrAmo | FE1 | Turma 32
+- Tipografia
+- Esqueleto de uma Interface
+- Português: Novas Regras Ortográficas
 
 ---
 
-## Certifications
+## **Languages**
 
-- Color Universe (*Universo das cores*)
-- Online Programming Course | FE1 | Class 32 (*Curso Online Eu ProgrAmo*)
-- Typography (*Tipografia*)
-- Interface Anatomy (*Esqueleto de uma interface*)
-- Portuguese: New Orthographic Rules (*Português: Novas Regras Ortográficas*)
+- **Portuguese:** Native or Bilingual Proficiency
+- **English:** Native or Bilingual Proficiency
+- **Spanish:** Elementary Proficiency
